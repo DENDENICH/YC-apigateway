@@ -10,7 +10,7 @@
           "url_pattern": "/users",
           "encoding": "json",
           "method": "GET",
-          "host": ["http://10.129.0.9:8000"]
+          "host": ["http://vm-app:8000"]
         }
       ]
     },
@@ -23,7 +23,7 @@
           "url_pattern": "/users/{id}",
           "encoding": "json",
           "method": "GET",
-          "host": ["http://10.129.0.9:8000"]
+          "host": ["http://vm-app:8000"]
         }
       ]
     }
