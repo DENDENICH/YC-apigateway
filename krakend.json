@@ -1,0 +1,31 @@
+{
+  "version": 3,
+  "endpoints": [
+    {
+      "endpoint": "/users",
+      "method": "GET",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/users",
+          "encoding": "json",
+          "method": "GET",
+          "host": ["http://10.129.0.9:8000"]
+        }
+      ]
+    },
+    {
+      "endpoint": "/users/{id}",
+      "method": "GET",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/users/{id}",
+          "encoding": "json",
+          "method": "GET",
+          "host": ["http://10.129.0.9:8000"]
+        }
+      ]
+    }
+  ]
+}
